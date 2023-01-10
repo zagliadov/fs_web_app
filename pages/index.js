@@ -1,22 +1,12 @@
 import styles from "../styles/Home.module.css";
-import Switch from "@mui/material/Switch";
-
-const label = { inputProps: { "aria-label": "Switch demo" } };
+import { Layout } from "../src/components/Layout/Layout";
+import { Header } from "../src/components/Header/Header";
 
 export default function Home() {
-
-  React.useEffect(() => {
-
-  }, []);
-
   return (
-    <div className={styles.container}>
       <div>
-        <span>With default Theme:</span>
+        <Header />
+        <Layout />
       </div>
-      <Switch {...label} defaultChecked />
-      <Switch {...label} />
-      <Switch {...label} disabled defaultChecked />
-    </div>
   );
 }
