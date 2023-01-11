@@ -1,11 +1,10 @@
 import React from "react";
-import BoyIcon from '@mui/icons-material/Boy';
+import AdbIcon from "@mui/icons-material/Adb";
 
 export const Logo = () => {
-
   return (
-    <>
-      <BoyIcon sx={{fontSize: 140}} />
-    </>
+    <div style={{ position: "relative" }}>
+      <AdbIcon sx={{ fontSize: 140, display: { xs: "none", md: "flex" } }} />
+    </div>
   );
 };
