@@ -1,23 +1,23 @@
 import React from "react";
 import { Logo } from "../Logo/Logo";
+import { Box } from "@mui/material";
 import { Navigation } from "../Navigation/Navigation";
-import { Box, Container } from "@mui/material";
+import { SubNavigation } from "../SubNavigation/SubNavigation";
 import { LocalNavigation } from "../LocalNavigation/LocalNavigation";
 
 export const Header = () => {
   return (
-    <Container maxWidth="xl">
       <Box
         sx={{
           display: "flex",
-          alignItems: "center",
-          justifyContent: "space-between",
+          flexDirection: "column",
+          position: "relative",
         }}
       >
         <Logo />
         <Navigation />
+        <LocalNavigation />
+        <SubNavigation />
       </Box>
-      <LocalNavigation />
-    </Container>
   );
 };

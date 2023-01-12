@@ -3,6 +3,19 @@
   border-bottom: 2px solid #B8454A;
 }
 
-/* .container {
-  border: 1px solid white;
-} */
+.customLink {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-right: 50px;
+}
+
+.customLocalLink {
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-right: 50px;
+}
+
+.customSubLink {
+  text-transform: uppercase;
+  font-size: 13px;
+}
