@@ -2,17 +2,10 @@ import { useRouter } from "next/router";
 
 export const useRouteComparison = () => {
   const { pathname } = useRouter();
+  const parent = pathname.split("/")[1];
 
-  const isShopRoute =
-    pathname === "/shop" ||
-    pathname === "/shop/categories" ||
-    pathname === "/shop/collection" ||
-    pathname === "/shop/resources";
-  const isRecipesRoute =
-    pathname === "/recipes" ||
-    pathname === "/recipes/categories" ||
-    pathname === "/recipes/collection" ||
-    pathname === "/recipes/resources";
+  const isShopRoute = parent === "shop";
+  const isRecipesRoute = parent === "recipes";
 
   return {
     pathname,

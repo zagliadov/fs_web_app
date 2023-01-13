@@ -16,7 +16,7 @@ export const SubNavigation = () => {
       </Link>
       <Link
         className={`${customSubLink}`}
-        href="/material-ui/getting-started/installation/"
+        href={`/${parent}`}
       >
         Core
       </Link>

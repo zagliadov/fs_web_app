@@ -2,7 +2,6 @@ import React from "react";
 import { Logo } from "../Logo/Logo";
 import { Box } from "@mui/material";
 import { Navigation } from "../Navigation/Navigation";
-import { SubNavigation } from "../SubNavigation/SubNavigation";
 import { LocalNavigation } from "../LocalNavigation/LocalNavigation";
 
 export const Header = () => {
@@ -17,7 +16,6 @@ export const Header = () => {
         <Logo />
         <Navigation />
         <LocalNavigation />
-        <SubNavigation />
       </Box>
   );
 };
