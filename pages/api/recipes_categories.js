@@ -1,10 +1,10 @@
 const categories = [
   {
-    id: "bread",
-    name: "Bread",
+    id: "Quick Bread",
+    name: "Quick Bread",
     endpoint: "/bread",
     img: '/img/tomato.avif',
-    title: 'Bread',
+    title: 'Quick Bread',
   },
   {
     id: "burger",

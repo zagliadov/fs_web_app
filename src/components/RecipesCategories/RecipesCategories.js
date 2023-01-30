@@ -8,7 +8,6 @@ import CardMedia from "@mui/material/CardMedia";
 export const RecipesCategories = () => {
   const [categories, setCategories] = React.useState();
   const { pathname } = useRouter();
-  console.log(pathname);
   React.useEffect(() => {
     fetch("http://localhost:3000/api/recipes_categories")
       .then((response) => response.json())

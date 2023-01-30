@@ -5,32 +5,41 @@ import Link from "next/link";
 import { Box } from "@mui/material";
 
 export const LocalNavigation = () => {
-  const { pathname, isShopRoute, isRecipesRoute } = useRouteComparison();
+  const { isShopRoute, isRecipesRoute, firstSibling } =
+    useRouteComparison();
   const { isActive, customLocalLink } = styles;
 
   return (
-    <Box sx={{
-      backgroundColor: "#F7F5EF",
-      paddingTop: "20px",
-      paddingBottom: "20px",
-      paddingLeft:{xs: "2%", md: "18%"},
-    }}>
+    <Box
+      sx={{
+        backgroundColor: "#F7F5EF",
+        paddingTop: "20px",
+        paddingBottom: "20px",
+        paddingLeft: { xs: "2%", md: "18%" },
+      }}
+    >
       {isShopRoute && (
         <>
           <Link
-            className={`${customLocalLink} ${pathname === "/shop/categories" ? isActive : ""}`}
+            className={`${customLocalLink} ${
+              firstSibling === "categories" ? isActive : ""
+            }`}
             href={"/shop/categories"}
           >
             Categories
           </Link>
           <Link
-            className={`${customLocalLink} ${pathname === "/shop/collection" ? isActive : ""}`}
+            className={`${customLocalLink} ${
+              firstSibling === "collection" ? isActive : ""
+            }`}
             href={"/shop/collection"}
           >
             Collection
           </Link>
           <Link
-            className={`${customLocalLink} ${pathname === "/shop/resources" ? isActive : ""}`}
+            className={`${customLocalLink} ${
+              firstSibling === "resources" ? isActive : ""
+            }`}
             href={"/shop/resources"}
           >
             Resources
@@ -40,19 +49,25 @@ export const LocalNavigation = () => {
       {isRecipesRoute && (
         <>
           <Link
-            className={`${customLocalLink} ${pathname === "/recipes/categories" ? isActive : ""}`}
+            className={`${customLocalLink} ${
+              firstSibling === "categories" ? isActive : ""
+            }`}
             href={"/recipes/categories"}
           >
             Categories
           </Link>
           <Link
-            className={`${customLocalLink} ${pathname === "/recipes/collection" ? isActive : ""}`}
+            className={`${customLocalLink} ${
+              firstSibling === "collection" ? isActive : ""
+            }`}
             href={"/recipes/collection"}
           >
             Collection
           </Link>
           <Link
-            className={`${customLocalLink} ${pathname === "/recipes/resources" ? isActive : ""}`}
+            className={`${customLocalLink} ${
+              firstSibling === "resources" ? isActive : ""
+            }`}
             href={"/recipes/resources"}
           >
             Resources

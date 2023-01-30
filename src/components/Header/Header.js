@@ -3,6 +3,7 @@ import { Logo } from "../Logo/Logo";
 import { Box } from "@mui/material";
 import { Navigation } from "../Navigation/Navigation";
 import { LocalNavigation } from "../LocalNavigation/LocalNavigation";
+import { SubNavigation } from "../SubNavigation/SubNavigation";
 
 export const Header = () => {
   return (
@@ -16,6 +17,7 @@ export const Header = () => {
         <Logo />
         <Navigation />
         <LocalNavigation />
+        <SubNavigation />
       </Box>
   );
 };
