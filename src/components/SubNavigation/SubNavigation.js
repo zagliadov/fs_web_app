@@ -8,6 +8,7 @@ import styles from "../../../styles/Navigation.module.css";
 export const SubNavigation = () => {
   const router = useRouter();
   const { parent, firstSibling, secondSibling } = useRouteComparison();
+  console.log(secondSibling)
   const { customSubLink } = styles;
   if (parent === undefined) return;
   return (
