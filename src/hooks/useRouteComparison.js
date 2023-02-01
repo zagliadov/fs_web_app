@@ -5,7 +5,7 @@ export const useRouteComparison = () => {
 
   const parent = router?.pathname.split("/")[1];
   const firstSibling = router?.pathname.split("/")[2];
-  const secondSibling = router?.query?.name;
+  const secondSibling = router?.query?.id;
   const isShopRoute = parent === "shop";
   const isRecipesRoute = parent === "recipes";
 

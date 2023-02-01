@@ -40,7 +40,7 @@ export const RecipesCategories = () => {
                   image={category.img}
                 />
                 <Link
-                  href={`${pathname}${category.endpoint}`}
+                  href={`${pathname}/${category.id}`}
 
                 >
                   {category.title}
