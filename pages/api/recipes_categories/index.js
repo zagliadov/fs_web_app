@@ -10,7 +10,7 @@ const categories = [
     prep: "10 mins",
     brake: "1 hr to 1 hr 15 mins",
     total: "1 hr 10 mins",
-    yield: "1 loaf, 12 generous servings",
+    profit: "1 loaf, 12 generous servings",
   },
   {
     id: "burger",
@@ -23,7 +23,7 @@ const categories = [
     prep: "10 mins",
     brake: "1 hr to 1 hr 15 mins",
     total: "1 hr 10 mins",
-    yield: "1 loaf, 12 generous servings",
+    profit: "1 loaf, 12 generous servings",
   },
   {
     id: "tomato",
@@ -36,7 +36,7 @@ const categories = [
     prep: "10 mins",
     brake: "1 hr to 1 hr 15 mins",
     total: "1 hr 10 mins",
-    yield: "1 loaf, 12 generous servings",
+    profit: "1 loaf, 12 generous servings",
   },
   {
     id: "bread2",
@@ -49,7 +49,7 @@ const categories = [
     prep: "10 mins",
     brake: "1 hr to 1 hr 15 mins",
     total: "1 hr 10 mins",
-    yield: "1 loaf, 12 generous servings",
+    profit: "1 loaf, 12 generous servings",
   },
   {
     id: "burger2",
@@ -62,7 +62,7 @@ const categories = [
     prep: "10 mins",
     brake: "1 hr to 1 hr 15 mins",
     total: "1 hr 10 mins",
-    yield: "1 loaf, 12 generous servings",
+    profit: "1 loaf, 12 generous servings",
   },
   {
     id: "tomato2",
@@ -75,7 +75,7 @@ const categories = [
     prep: "10 mins",
     brake: "1 hr to 1 hr 15 mins",
     total: "1 hr 10 mins",
-    yield: "1 loaf, 12 generous servings",
+    profit: "1 loaf, 12 generous servings",
   },
   {
     id: "bread3",
@@ -88,7 +88,7 @@ const categories = [
     prep: "10 mins",
     brake: "1 hr to 1 hr 15 mins",
     total: "1 hr 10 mins",
-    yield: "1 loaf, 12 generous servings",
+    profit: "1 loaf, 12 generous servings",
   },
   {
     id: "burger3",
@@ -101,7 +101,7 @@ const categories = [
     prep: "10 mins",
     brake: "1 hr to 1 hr 15 mins",
     total: "1 hr 10 mins",
-    yield: "1 loaf, 12 generous servings",
+    profit: "1 loaf, 12 generous servings",
   },
   {
     id: "tomato3",
@@ -114,7 +114,7 @@ const categories = [
     prep: "10 mins",
     brake: "1 hr to 1 hr 15 mins",
     total: "1 hr 10 mins",
-    yield: "1 loaf, 12 generous servings",
+    profit: "1 loaf, 12 generous servings",
   },
   {
     id: "bread4",
@@ -127,7 +127,7 @@ const categories = [
     prep: "10 mins",
     brake: "1 hr to 1 hr 15 mins",
     total: "1 hr 10 mins",
-    yield: "1 loaf, 12 generous servings",
+    profit: "1 loaf, 12 generous servings",
   },
   {
     id: "burger4",
@@ -140,7 +140,7 @@ const categories = [
     prep: "10 mins",
     brake: "1 hr to 1 hr 15 mins",
     total: "1 hr 10 mins",
-    yield: "1 loaf, 12 generous servings",
+    profit: "1 loaf, 12 generous servings",
   },
   {
     id: "tomato4",
@@ -153,7 +153,7 @@ const categories = [
     prep: "10 mins",
     brake: "1 hr to 1 hr 15 mins",
     total: "1 hr 10 mins",
-    yield: "1 loaf, 12 generous servings",
+    profit: "1 loaf, 12 generous servings",
   },
   {
     id: "bread5",
@@ -166,7 +166,7 @@ const categories = [
     prep: "10 mins",
     brake: "1 hr to 1 hr 15 mins",
     total: "1 hr 10 mins",
-    yield: "1 loaf, 12 generous servings",
+    profit: "1 loaf, 12 generous servings",
   },
   {
     id: "burger5",
@@ -179,7 +179,7 @@ const categories = [
     prep: "10 mins",
     brake: "1 hr to 1 hr 15 mins",
     total: "1 hr 10 mins",
-    yield: "1 loaf, 12 generous servings",
+    profit: "1 loaf, 12 generous servings",
   },
   {
     id: "tomato5",
@@ -192,7 +192,7 @@ const categories = [
     prep: "10 mins",
     brake: "1 hr to 1 hr 15 mins",
     total: "1 hr 10 mins",
-    yield: "1 loaf, 12 generous servings",
+    profit: "1 loaf, 12 generous servings",
   },
 ];
 export default function handler(req, res) {
